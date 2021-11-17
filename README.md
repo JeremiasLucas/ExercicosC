@@ -1,0 +1,2 @@
+# ExercicosC
+Exercicios em C

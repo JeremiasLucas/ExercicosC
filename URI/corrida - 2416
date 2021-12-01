@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int pontoTermino(int x, int y){
+  int qtd;
+  qtd = x % y;
+  return qtd;
+}
+
+int main() {
+  int x, y, qtd;
+  scanf("%d", &x);
+  scanf("%d", &y);
+  qtd = pontoTermino(x,y);
+  printf("%d\n",qtd);
+  return 0;
+}

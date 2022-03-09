@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int soma(int a, int b){
+  int PROD;
+  PROD = a * b;
+  return PROD;
+}
+
+int main() {
+  int a, b, PROD;
+  scanf("%d", &a);
+  scanf("%d", &b);
+  PROD = soma(a,b);
+  printf("PROD = %d\n",PROD);
+  return 0;
+}

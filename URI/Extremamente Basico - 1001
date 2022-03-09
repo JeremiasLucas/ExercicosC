@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int soma(int A, int B){
+  int X;
+  X = A + B;
+  return X;
+}
+
+int main() {
+  int A, B, X;
+  scanf("%d", &A);
+  scanf("%d", &B);
+  X = soma(A,B);
+  printf("X = %d\n",X);
+  return 0;
+}

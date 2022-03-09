@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main() {
+    unsigned int frango, bife, massa, frangoPedido, bifePedido, massaPedido, total = 0;
+    
+    scanf("%u %u %u", &frango, &bife, &massa);
+    scanf("%u %u %u", &frangoPedido, &bifePedido, &massaPedido);
+    
+    if (frangoPedido > frango)
+        total = frangoPedido - frango;
+    
+    if (bifePedido > bife)
+        total += bifePedido - bife;
+        
+    if (massaPedido > massa)
+        total += massaPedido - massa;
+        
+    printf("%u\n", total);
+    
+    return 0;
+}
